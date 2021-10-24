@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+header#cabecalho{
+	display: block;
+	align-items: center;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+header#cabecalho h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase; /*Deixando o texto em Letra de Forma*/
+	color: #020202;		
+	padding: 0px; /*Margem interna */
+	margin-top: 30px;  /*Ajustando somente a margem superior*/
+	margin-bottom: 30px; /*Ajustando somente a margem inferior*/
+    text-align: center; /*Alinhando o texto ao centro */
+}
+
+body{
+	font-family: Arial, sans-serif;
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+
+div#interface {
+	width: 900px; /* largura do conteúdo*/
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Criar Sombra no Objeto lateral, vertical, espalhamento e cor*/
+	padding: 10px; /* Espaço interno do objeto */
+}	
+
+.postImagem{
+	display: block;
+	align-items: center;
+	height: 150px;
+    margin: auto;
+    width: 500px;
+	border-bottom: 1px black solid;
+	margin-bottom: 20px;	
+}
+
+.selececao {
+	display: block;
+	align-items: center;
+	margin: auto;
+	width: 100px;
+}
+
+.conteiner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+}
+
+.bloco{
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.dias{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.escolha {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.opcoes{
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.opcoes h2{
+	font-size: 12pt;
+	padding: 10px;
+	margin-left: 70px;
+}
